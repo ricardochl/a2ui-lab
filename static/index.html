@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art Agent - Simple Chat</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="chat-messages" class="messages">
+            <div class="message system">
+                <strong>System:</strong> Welcome to the Art Agent! Describe the image you want to generate.
+            </div>
+        </div>
+        <form id="chat-form" class="input-form">
+            <input type="text" id="user-input" placeholder="Type image description..." autocomplete="off" required>
+            <button type="submit">Generate</button>
+        </form>
+    </div>
+    <script src="/static/app.js"></script>
+</body>
+</html>
