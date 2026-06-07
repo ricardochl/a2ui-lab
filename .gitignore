@@ -1,0 +1,17 @@
+# Secretos
+.env
+art_creator/.env
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.python-version
+
+# uv
+uv.lock.bak
+
+# Editor / SO
+.vscode/
+.idea/
+.DS_Store

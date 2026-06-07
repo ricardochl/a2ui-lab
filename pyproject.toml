@@ -1,0 +1,13 @@
+[project]
+name = "a2ui-lab"
+version = "0.1.0"
+description = "Art creator agent built with ADK, Gemini (Nano Banana 2) and A2UI — generative UI workshop"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "google-adk",
+    "fastapi",
+    "uvicorn",
+    "a2ui-agent-sdk",
+    "python-dotenv",
+]
